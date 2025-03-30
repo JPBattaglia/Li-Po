@@ -167,9 +167,9 @@ p{
     z-index: 1;
     top: 0;
     right: 0;
-    background: url(bamboo-green-bamboo.jpg);
+    background: url(Glass.png);
     background-repeat: repeat;
-    background-size: 100% 100%;
+    background-size: 150% 105%;
     overflow-x: hidden;
     transition: .8s;
     font-family: 'federant';
@@ -177,13 +177,13 @@ p{
 }
 
 .sidenav a {
-    margin: 105px 10px;
+    margin: 100px 10px;
     font-size: 28px;
     color: beige;
     display: block;
     transition: 1s;
     max-width: 100%;
-    text-align: center;
+    text-align: right;
     text-shadow:
        1px 1px 0 red,
       -1px -1px 0 red,  
