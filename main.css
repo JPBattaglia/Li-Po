@@ -1,0 +1,1316 @@
+html{
+    min-height:100%;
+    overflow:auto;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("UnderMaintenance.png");
+    background-size: 25%;
+    z-index: 9999999999;
+}
+
+#site{
+    max-width: 1500px;
+    margin: auto;
+}
+
+
+#happyhour{
+    margin:auto;
+    width: 380px;
+    font-weight: bold;
+    text-align: center;
+    color:antiquewhite;
+    border: 4px #080 solid;
+    background: repeating-linear-gradient(to top, #330011, #660033, #e6004c 100%);
+    border-radius: 50px;
+    padding: 3px 0;
+    
+}
+
+.animated {
+        background: #302;
+        margin-bottom:30px;
+        -webkit-animation-duration: 3s;animation-duration: 3s;
+        -webkit-animation-fill-mode: both;animation-fill-mode: both;
+        }
+
+        @-webkit-keyframes fadeOut {
+          100% {opacity: 1;}
+          0% {opacity: 0;}
+         }
+
+        @keyframes fadeOut {
+          100% {opacity: 1;}
+          0% {opacity: 0;}
+         }
+
+.fadeOut {
+        -webkit-animation-name: fadeOut;
+        animation-name: fadeOut;
+         }
+
+body{
+    background-attachment:fixed;
+}
+
+#reservation:hover{
+    box-shadow: 2px 8px 10px red;
+    color:orangered;
+    text-shadow:
+       1px 1px 0 white;
+    }
+
+#menumade {
+    padding-top: 15px;
+    width: 65px;
+}
+
+
+h1{
+    color: #080;
+    font-family: 'Monda';
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    text-shadow:
+       2px 1px 0 white, -2px 1px 0 white, 2px -1px 0 white, -2px -1px 0 white;
+    font-style: italic;
+    letter-spacing: -.5px;
+    margin: 20px auto 20px;
+}
+
+h2{
+    border-bottom: 6px double #fc0;
+    width: 120px;
+    margin: 20px auto;
+    font-size: 30px;
+    font-family: 'Kaushan Script', serif;
+    font-weight: bolder;
+    color: #fff;
+    text-shadow:
+       1px 1px 1px red, -1px 1px 1px red, 1px -1px 1px red, -1px -1px 1px red;
+    letter-spacing: 2px;
+}
+
+h3{
+    color: #fa0;
+    font-size: 22px;
+    font-family: 'Quintessential', serif;
+    font-weight: 600;
+}
+
+p{
+    font-family: 'Joti One';
+    color: red;
+    font-size: 17px;
+    width:250px;
+    margin: auto;
+    font-family: serif;
+    text-shadow:
+       .5px 1px 0 white,
+      -.5px -1px 0 white,  
+       .5px -1px 0 white,
+      -.5px 1px 0 white,
+       .5px 1px 0 white;
+}
+
+.burger{
+    transition: 1.5s;
+    float: right;
+    margin: -60px 20px 0 0;
+    background: none;
+    border: none;
+}
+
+.burger span{
+    display: block;
+    width: 40px;
+    height: 4px;
+    margin-bottom: 7px;
+    background: linear-gradient(to left, #ee0, #cc0, #aa0, #ff0, #aa0, #cc0, #ee0);
+    z-index: 1;
+    box-shadow: 0px 0px 2px #000;
+    border: .5px solid #000;
+}
+
+.burger:hover{
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 10px #0ac);
+    transition: 1.5s;
+}
+
+#top{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#middle{
+    border-radius: 3px;
+}
+
+#bottom{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background: url(bamboo-green-bamboo.jpg);
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    overflow-x: hidden;
+    transition: .8s;
+    font-family: 'federant';
+    font-weight: bold;
+}
+
+.sidenav a {
+    margin: 105px 10px;
+    font-size: 28px;
+    color: beige;
+    display: block;
+    transition: 1s;
+    max-width: 100%;
+    text-align: center;
+    text-shadow:
+       1px 1px 0 red,
+      -1px -1px 0 red,  
+       1px -1px 0 red,
+      -1px 1px 0 red,
+       1px 1px 0 red;
+    text-decoration: none;
+}
+
+.sidenav a:nth-child(2){
+    margin-top: 200px;
+}
+
+.sidenav a:hover {
+    color:  #fa0;
+    text-shadow:
+       1px 1px 0 white,
+      -1px -1px 0 white,  
+       1px -1px 0 white,
+      -1px 1px 0 white,
+       1px 1px 0 white;
+}
+
+.sidenav .closebtn {
+    margin: 25px 45px 28px 22px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+nav{
+    text-align:center;
+    margin-bottom: 20px;
+}
+
+nav li {
+    font-family: 'Joti One', serif;
+    font-size: 25px;
+    font-weight:bold;
+    display:inline;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* unvisited link */
+nav li a:link, nav li a:visited {
+    color: #fff;
+    text-decoration: none;
+    margin: 5px;
+    text-shadow:
+       1px 1px 0 red,
+      -1px -1px 0 darkred,  
+       1px -1px 0 darkred,
+      -1px 1px 0 darkred,
+       1px 1px 0 darkred;  
+}
+
+/* mouse over link */
+nav li a:hover{
+    color: #fc0;
+    text-shadow:
+       1px 1px 0 cyan;
+}
+
+img {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#intro{
+    max-width: 1500px;
+    height: 450px;
+    margin: auto;
+}
+
+#intro img{
+    width: 100%;
+    height: 650px;
+    margin:  auto;
+    position: absolute;
+    border-bottom: 3px solid #fa0;
+}
+
+  #stage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+  }
+
+  #stage img:nth-of-type(1) {
+    animation-name: fader;
+    animation-delay: 10s;
+    animation-duration: 10s;
+    z-index: 20;
+  }
+
+  #stage img:nth-of-type(2) {
+    z-index: 10;
+  }
+
+  #stage img:nth-of-type(n+3) {
+    display: none;
+  }
+
+  @keyframes fader {
+    from { opacity: 1.0; }
+    to   { opacity: 0.0; }
+  }
+
+#info{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #700;
+}
+
+#location img:hover{
+        filter: drop-shadow(0px 0px 3px red);
+}
+
+#phone{
+    filter: drop-shadow(1px 8px 6px #030);
+}
+
+#menumade{
+    filter:drop-shadow(0px 0px 2px black);
+}
+
+#form{
+    margin-top: -30px;
+}
+
+.gallery{
+    width: 80%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+#preloader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #030;
+    padding-top: 25%;
+    font-family: 'federant' ;
+    background: url(Yin_yang.gif) no-repeat center center;
+    background-size: 50%;
+    height: 65%;
+    width: 60%;
+    position: fixed;
+    z-index: 9999999999999999;
+    top: 0;
+}
+
+
+/*=======================================*/
+/*=======================================*/
+
+@media (max-width: 849px) and (min-width: 601px){
+    nav, #calltoaction, #rotate, #happy, #info h2{
+        display: none;
+    }
+    
+    .animated{
+        background: #302;
+    }
+    
+    #preloader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #030;
+    padding-top: 45%;
+    font-family: 'federant' ;
+    background: url(Yin_yang.gif) no-repeat center center;
+    background-size: 40%;
+    height: 65%;
+    width: 100%;
+    position: fixed;
+    z-index: 9999999999999999;
+    top: 0;
+}
+    
+    .sidenav .closebtn {
+        margin: 5px 40px 28px 22px;
+        font-size: 50px
+    }
+    
+    .overlay{
+        background-size: 33%;
+    }
+
+    .sidenav a {
+        padding-top: 25px;
+    }
+    
+    .burger {
+        align-self: flex-start;
+        float: right;
+        margin: 10px 20px 0 0;
+    }
+    
+    .burger span{
+        width: 52px;
+        height: 6px;
+        margin: 10px;
+        background: linear-gradient(to left, #004a40, #007a6a, #0bd, cyan, #0bd, #007a6a, #004a40);
+        border: .5px solid green;
+    }
+    
+    #top{
+        border-top-right-radius: 3.5px;
+        border-top-left-radius: 3.5px;
+    }
+    
+    #bottom{
+        border-bottom-right-radius: 3.5px;
+        border-bottom-left-radius: 3.5px;
+    }
+    
+    
+    p{
+        font-family: 'Joti One';
+        color: #a00;
+        font-size: 17px;
+        width:250px;
+        margin: auto;
+        font-family: serif;
+    }
+    
+    #logo{
+        margin-top: 20px;
+        font-size: 12px;
+        color: #800;
+        font-style: italic;
+        font-weight: bolder;
+        width: 360px;
+        text-align: center;
+    }
+    
+    #logo p{
+        width: 200px;
+        font-size: 12px;
+        margin-left: -15px;
+        text-shadow: .5px .5px 0 white;
+    }
+    
+    #logo img{
+        width: 115px;
+        height: 200px;
+        margin-left: -200px;
+    }
+    
+    
+    #info h3{
+        font-family: 'Passero One';
+        font-size: 28px;
+    }
+    
+    #clock{
+        width: 60px;
+        height: 60px;
+        border: .5px solid #fff;
+        border-radius: 50px;
+    }
+    
+    #hours{
+        margin-top: 50px;
+        max-width: 60%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    
+    #hours img{
+        width: 50px;
+        height: 50px;
+        margin-bottom: -10px;
+    }
+    
+    #reservations h2{
+        margin-bottom: 30px;
+        max-width: 50%;
+        margin: auto;
+    }
+    
+    #reservations h3{
+        font-family: 'Quintessential';
+    }
+    
+    #phone{
+        width: 70px;
+        margin: 50px 0 -35px;
+    }
+    
+    #sociallink img{
+        width: 50px;
+        margin: 0px 50px -15px;
+    }
+    
+    #intro{
+        margin: auto;
+        height: 335px;
+        max-width: 100%;
+    }
+    
+    #intro h1{
+        font-size: 32px;
+        margin: -90px auto;
+        max-width: 75%;
+    }
+    
+    #intro img{
+        margin: auto;
+        max-width: 100%;
+        height: 500px;
+    }
+    
+    #location img{
+        width: 50px;
+        margin-bottom: -20px;
+    }
+    
+    #reservation{
+        color:white;
+        padding: 10px 25px;
+        background: repeating-linear-gradient(to top, #500, #900, red 100%);
+        width: 100px;
+        border-radius: 30px;
+        font-family: 'federant';
+        text-decoration: none;
+        border: .5px solid #600;
+        box-shadow: 2px 4px 8px #700;
+        margin: 5px;
+    }
+    
+    #number{
+        margin: 50px auto 100px;
+    }
+    
+    textarea, input{
+        font-family: 'federant', serif;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bolder;
+        max-width: 500px;
+        background-color: antiquewhite;
+    }
+    
+    #message{
+        height: 200px;
+    }
+
+    select{
+        font-family: 'federant', serif;
+        color: #a00;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bolder;
+        max-width: 30%;
+        box-sizing: border-box;
+        background-color: antiquewhite;
+    }
+
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #c00;
+        opacity: 1; /* Firefox */
+    }
+
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: red;
+    }
+
+    ::-ms-input-placeholder { /* Microsoft Edge */
+        color: red;
+    }
+
+    /* Style inputs with type="text", select elements and textareas */
+    input[type=text], select, textarea, #myFile {
+        margin: auto;
+        box-shadow: 2px 4px 10px #600;
+        text-align: center;
+        width: 60%; /* Full width */
+        padding: 8px; /* Some padding */  
+        border: 1.5px solid #3db; /* Gray border */
+        border-radius: 20px; /* Rounded borders */
+        box-sizing: border-box; /* Make sure that padding and width stays in place */
+        margin-top: 30px; /* Add a top margin */
+        margin-bottom: 30px; /* Bottom margin */
+        resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+
+    /* Style the submit button with a specific background color etc */
+    input[type=submit] {
+        color: #fff;
+        text-shadow: .5px .5px 1px black, -.5px .5px 1px black, .5px -.5px 1px black, -.5px -.5px 1px black; 
+        text-align: center;
+        padding: 8px 3px;
+        background: lime;
+        width: 130px;
+        border-radius: 30px;
+        font-family: 'Federant';
+        font-size: 20px;
+        text-decoration: none;
+        border: .5px solid green;
+        box-shadow: inset 2px 8px 20px #030,
+            inset -2px -8px 20px #030;
+        -webkit-transition: background-color 1s ease-out;
+        -moz-transition: background-color 1s ease-out;
+        -o-transition: background-color 1s ease-out;
+        transition: background-color 1s ease-out;
+        margin-bottom: 50px;
+        margin-top: 20px;
+        
+    }
+
+    /* When moving the mouse over the submit button, add a blue color */
+    input[type=submit]:hover {
+        background: green;
+        color: cyan;
+        cursor: pointer;
+        border: .5px solid green;
+        text-shadow: .5px .5px 1px green, -.5px .5px 1px green, .5px -.5px 1px green, -.5px -.5px 1px green; 
+    }
+    
+    /* Add a background color and some padding around the form */
+    .container{
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+        max-width: 95%;
+        margin: auto;
+        margin-bottom: 80px;
+    }
+
+    #form {
+        background-size: 100% 100%;
+        margin: 100px 0px 125px;
+        text-align: center;
+        width: 100%;
+    }
+    
+    #contactus{
+        width: 250px;
+        float: left;
+        margin: -40px 31% 0;
+        font-size: 42px;
+    }
+    
+    
+    .input_container {
+        border: 1px solid #e5e5e5;
+        border-radius: 10px;
+        padding: 5px 10px;
+        font-family: 'Helvetica', sans-serif;
+        transition: .5s;
+    }
+
+    label:hover {
+        background-color: #eee;
+    }
+
+    footer{
+        margin-top: 50px;
+        text-align: center;
+        font-size: 20PX;
+        color: #800; 
+    }
+    
+    footer p{
+        width: 100%;
+        font-weight: bolder;
+    }
+    
+    .gallery{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .gallery img{
+        width: 300px;
+        margin: 50px;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+        border: 5px double gold;
+        border-radius: 10px;
+    }
+    
+    #copywrite{
+        font-family: "Joti One";
+    }
+}
+
+/*=======================================*/
+/*=======================================*/
+
+@media (max-width: 600px){
+        nav, #happy, #reservation, #info h2{
+        display: none;
+    }
+    
+    #preloader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #030;
+    padding-top: 65%;
+    font-family: 'federant' ;
+    background: url(Yin_yang.gif) no-repeat center center;
+    background-size: 40%;
+    height: 65%;
+    width: 100%;
+    position: fixed;
+    z-index: 9999999999999999;
+    top: 0;
+}
+    
+    .overlay{
+        background-size: 50%;
+    }
+    
+    
+    .sidenav a{
+        margin-left: 20px;
+    }
+    
+    .sidenav .closebtn{
+        margin: 23px 37px 28px 22px;
+    }
+    
+    .gallery{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .gallery img{
+        width: 300px;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+        border: 5px double gold;
+        border-radius: 10px;
+    }
+    
+    .burger {
+        align-self: flex-start;
+        float: right;
+        margin: 20px 20px 0 0;
+    }
+    
+    .burger span{
+        width: 40px;
+        height: 4px;
+        margin: 7px;
+        background: linear-gradient(to left, #004a40, #007a6a, #0bd, cyan, #0bd, #007a6a, #004a40);
+        border: .5px solid #3db;
+    }
+    
+    #top{
+        border-top-right-radius: 3.5px;
+        border-top-left-radius: 3.5px;
+    }
+    
+    #bottom{
+        border-bottom-right-radius: 3.5px;
+        border-bottom-left-radius: 3.5px;
+    }
+    
+    #intro {
+        margin: 10px auto;
+        height: 325px;
+    }
+    
+    
+    #stage{
+        height: 350px;
+    }
+    
+    #info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: -15px auto;
+       
+    }
+    
+    #info h3{
+        font-family: 'Passero One';
+        font-size: 22px;
+    }
+    
+    #intro img{
+        margin: auto;
+        max-width: 150%;
+        height: 500px;
+        border-bottom: 2px solid #fa0;
+    }
+    
+    #logo{
+        width: 100px;
+    }
+    
+    #logo img{
+        width: 85px;
+        height: 150px;
+        margin: 10px;
+        filter: drop-shadow(0px 0px 10px gold);
+        padding: 3px;
+    }
+    
+    h2{
+        font-size: 24px;
+    }
+    
+    h3{
+        font-size: 20px;
+    }
+    
+    p{
+        font-family: 'Joti One';
+        color:#a00;
+        font-size: 12px;
+        width: 225px;
+        margin: auto;
+        font-family: serif;
+        text-align: center;
+    }
+    
+    #sociallink img{
+        width: 50px;
+        margin: 0 15px -20px;
+    }
+    
+    #clock{
+        width: 40px;
+        height: 40px;
+        margin-top: 50px;
+        border: .5px solid #fff;
+        border-radius: 50px;
+    }
+    
+    #hours{
+        margin-top: -10px;
+    }
+    
+    #hours h2{
+        margin-bottom: 5px;
+    }
+    
+    #hours h3{
+        margin-top: 10px;
+    }
+    
+    #hours i{
+        font-size: 18px;
+        text-decoration: underline;
+    }
+    
+    #location img{
+        width: 30px;
+    }
+    
+    #reservations h2{
+        margin: 15px auto;
+    }
+    
+    #reservations h3{
+        margin: 15px 0;
+        font-family: 'Quintessential';
+    }
+    
+    #phone{
+        width: 50px;
+        margin: 30px 0 -15px;
+    }
+    
+    #location h2{
+        margin: 10px auto;
+    }
+    
+    #location h3{
+        margin: 0 0 10px;
+    }
+    
+    #location img{
+        width: 45px;
+        filter:drop-shadow(0px 0px 2px black);
+        margin-top: 10px;
+    }
+    
+    select{
+        padding: 0px;
+        font-family: 'federant', serif;
+        color:red;
+        text-align: center;
+        font-size: 18px;
+        font-weight:bolder;
+        max-width: 50%;
+        box-sizing: border-box;
+        background-color: antiquewhite;
+    }
+
+    #message{
+        height: 100px;
+        margin-bottom: 35px;
+    }
+    
+    #fname{
+        margin-top: 5px;
+    }
+    
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #b00;
+        opacity: .5; /* Firefox */
+        font-family: 'federant';
+        font-size: 17px;
+    }
+
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: red;
+    }
+
+    ::-ms-input-placeholder { /* Microsoft Edge */
+        color: red;
+    }
+
+    /* Style inputs with type="text", select elements and textareas */
+    input[type=text], select, textarea {
+        background-color: antiquewhite;
+        margin: auto;
+        font-family: 'federant';
+        font-size: 18px;
+        color: #b00;
+        box-shadow: 2px 4px 10px #600;
+        text-align: center;
+        width: 80%;
+        padding: 5px; /* Some padding */  
+        border: 1.5px solid #080; /* Gray border */
+        border-radius: 20px; /* Rounded borders */
+        box-sizing: border-box; /* Make sure that padding and width stays in place */
+        margin-top: 25px; /* Add a top margin */
+        margin-bottom: 10px; /* Bottom margin */
+        resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+
+     /* Style the submit button with a specific background color etc */
+    input[type=submit] {
+        text-align: center;
+        color:#ffeecc;
+        margin: 0;
+        padding: 7px 20px;
+        background: repeating-linear-gradient(to top, #030, #070, lightgreen 100%);
+        width: 100px;
+        border-radius: 30px;
+        font-family: 'Federant';
+        font-size: 17px;
+        text-decoration: none;
+        border: .5px solid #66cc00;
+        box-shadow: 
+        -2px 8px 20px #040;
+        -webkit-transition: background-color 1s ease-out;
+        -moz-transition: background-color 1s ease-out;
+        -o-transition: background-color 1s ease-out;
+        transition: background-color 1s ease-out;
+    }
+
+    /* When moving the mouse over the submit button, add a blue color */
+    input[type=submit]:hover {
+        box-shadow: 2px 8px 10px limegreen;
+        color: antiquewhite;
+        text-shadow:
+        1px 1px 0 lime,
+        -1px -1px 0 green,  
+        1px -1px 0 green,
+        -1px 1px 0 green,
+        1px 1px 0 green;
+        cursor: pointer;  
+    }
+
+    /* Add a background color and some padding around the form */
+    .container{
+        width: 850px;
+        max-width: 98%;
+        margin: auto;
+    }
+
+    #form {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    #contactus{
+        font-size: 28px;
+        margin-top: -60px;
+        margin-bottom: 50px;
+    }
+
+    footer{
+        text-align: center;
+        color: #800; 
+    }
+    
+    footer p{
+        width: 100%;
+        font-weight: bolder;
+        font-size: 15px;
+    }
+
+    #copywrite{
+        font-family: "Joti One";
+        text-shadow: .5px 0px 0 white, -.5px 0px 0 white, .5px -.5px 0 white, .5px .5px 0 white;
+    }
+}
+
+/*=======================================*/
+/*=======================================*/
+
+@media (min-width: 850px){
+    .sidenav, .navicon, #calltoaction, #rotate, .navicon1, #happy{
+        display: none;
+    }
+    
+    #preloader{
+        margin: 0 20%; 
+    }
+    
+    .overlay{
+        background-size: 33%;
+    }
+    
+    nav li{
+        margin: 150px 50px;
+        font-size: 35px;
+    }
+    
+    #sociallink img{
+        width: 50px;
+        margin: 0px 50px -15px;
+    }
+    
+    #logo{
+        width: 130px;
+        height: 165px;
+        margin-top: -45px;
+        margin-left: 30px;
+    }
+    
+    #logo img{
+        filter: drop-shadow(.5px .5px 10px orange);
+        width: 180px;
+        height: 315px;
+    }
+    
+    #info{
+        display:flex;
+        max-width:1000px;
+        margin: auto;
+    }
+    
+    #info h3{
+        font-family: "Joti One";
+        font-size: 26px;
+    }
+    
+    #clock{
+        width: 50px;
+        height: 50px;
+        border: .5px solid #fff;
+        border-radius: 50px;
+        margin-bottom: -10px;
+    }
+    
+    #hours{
+        flex: 3;
+        text-align: center;
+        max-width: 250px;
+        margin: 0px auto;
+    }
+    
+    #hours h3{
+        font-size: 24px;
+    }
+    
+    #hours img{
+        width: 45px;
+        height: 45px;
+    }
+    
+    #reservations{
+        flex: 2;
+        text-align: center;
+        max-width: 350px;
+        margin: 0px auto;
+    }
+    
+    #reservations h2{
+        margin-bottom: 30px;
+    }
+    
+    #reservations h3{
+        font-family: 'Quintessential';
+        font-size: 32px;
+    }
+    
+    #reservations img{
+        width: 60px;
+        margin: -10px;
+    }
+    
+    #location img{
+        width: 50px;
+    }
+    
+    #location{ 
+        text-align: center;
+        flex: 1;
+        max-width: 250px;
+        margin: 0 auto;
+    }
+    
+    #location h3{
+        margin: 10px 0; 
+    }
+    
+    #number{
+        margin-top: 30px;
+    }
+    
+    h1{
+        font-size: 65px;
+        margin-top: -80px;
+    }
+    
+    p{
+        font-size: 22px;
+        width:375px;
+        margin: auto;
+        font-family: serif;
+    }
+    
+    #contactus{
+        font-family: "Joti One";
+        margin: 0px auto -50px;
+    }
+    
+    textarea, input{
+        font-family: 'federant', serif;
+        color:red;
+        text-align: center;
+        font-size: 18px;
+        font-weight:bolder;
+        max-width: 450px;
+        background-color: antiquewhite;
+    }
+
+    select{
+        font-family: 'federant', serif;
+        color: #b00;
+        text-align: center;
+        font-size: 18px;
+        font-weight:bolder;
+        max-width: 30%;
+        box-sizing: border-box;
+        background-color: antiquewhite;
+    }
+
+    #message{
+        height: 200px;
+    }
+    
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #b00;
+        opacity: 1; /* Firefox */
+    }
+
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: red;
+    }
+
+    ::-ms-input-placeholder { /* Microsoft Edge */
+        color: red;
+    }
+
+    /* Style inputs with type="text", select elements and textareas */
+    input[type=text], select, textarea {
+        margin: auto;
+        text-align: center;
+        box-shadow: 2px 4px 10px #600;
+        width: 90%; /* Full width */
+        padding: 10px; /* Some padding */  
+        border: 1.5px solid #090; /* Gray border */
+        border-radius: 20px; /* Rounded borders */
+        box-sizing: border-box; /* Make sure that padding and width stays in place */
+        margin-top: 50px; /* Add a top margin */
+        margin-bottom: 30px; /* Bottom margin */
+        resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+
+     /* Style the submit button with a specific background color etc */
+    input[type=submit] {
+        color:#ffeecc;
+        letter-spacing: .3px;
+        margin: 40px 0 75px;
+        padding: 8px 3px;
+        background: repeating-linear-gradient(to top, #030, #070, lightgreen 100%);
+        width: 130px;
+        border-radius: 30px;
+        font-family: 'Federant';
+        font-size: 20px;
+        text-decoration: none;
+        border: .5px solid #66cc00;
+        box-shadow: 
+            -2px 8px 20px #050;
+        -webkit-transition: background-color 1s ease-out;
+        -moz-transition: background-color 1s ease-out;
+        -o-transition: background-color 1s ease-out;
+        transition: background-color 1s ease-out;
+    }
+
+    /* When moving the mouse over the submit button, add a blue color */
+    input[type=submit]:hover {
+        box-shadow: 2px 8px 10px limegreen;
+        color: antiquewhite;
+        text-shadow:
+        1px 1px 0 lime,
+        -1px -1px 0 green,  
+        1px -1px 0 green,
+        -1px 1px 0 green,
+        1px 1px 0 green;
+        cursor: pointer;
+    }
+    
+    #fname{
+        margin-top: 0px;
+    }
+
+    /* Add a background color and some padding around the form */
+    .container{
+        filter: drop-shadow(4px 4px 2px #990);
+        width: 950px;
+        max-width: 100%;
+        margin: 20px auto;
+    }
+
+    #form {
+        background: url(Buddha%20Empty.png);
+        background-size: 100% 100%;
+        padding:20px 0px 40px;
+        text-align: center;
+        margin-top: 150px;
+    }
+
+    footer{
+        text-align: center;
+        color: #800;
+        width: 100%;
+    }
+    
+    footer p{
+        font-family: "joti One";
+        width: 100%;
+        font-weight: bolder;
+    }
+    
+    .gallery{
+        margin-top: 150px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .gallery img{
+        width: 300px;
+        margin: 50px;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+        border: 5px double orange;
+        border-radius: 10px;
+    }
+}
+
+/*=======================================*/
+/*=======================================*/
+
+@media (min-width: 850px) and (max-width: 1050px){
+    
+    nav li{
+        margin: 150px 30px;
+        font-size: 22px;
+    }
+    
+    #logo img{
+        width: 160px;
+        height: 280px;
+    }
+    
+    h1{
+        font-size: 45px;
+    }
+    
+    #intro img{
+        height: 600px;
+    }
+    
+    #info{
+        margin: -20px auto;
+    }
+    
+    footer{
+        margin-top: 50px;
+    }
+}
