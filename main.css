@@ -200,11 +200,11 @@ p{
 .sidenav a:hover {
     color:  #fa0;
     text-shadow:
-       1px 1px 0 white,
-      -1px -1px 0 white,  
-       1px -1px 0 white,
-      -1px 1px 0 white,
-       1px 1px 0 white;
+       1px 1px 0 Cyan,
+      -1px -1px 0 Cyan,  
+       1px -1px 0 Cyan,
+      -1px 1px 0 Cyan,
+       1px 1px 0 Cyan;
 }
 
 .sidenav .closebtn {
@@ -398,7 +398,7 @@ img {
         height: 6px;
         margin: 10px;
         background: linear-gradient(to left, #004a40, #007a6a, #0bd, cyan, #0bd, #007a6a, #004a40);
-        border: .5px solid green;
+        border: .5px solid cyan;
     }
     
     #top{
