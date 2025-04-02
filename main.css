@@ -78,16 +78,13 @@ body{
 
 
 h1{
-    color: #080;
-    font-family: 'Monda';
     text-align: center;
     font-size: 25px;
     font-weight: bolder;
     text-shadow:
        2px 1px 0 white, -2px 1px 0 white, 2px -1px 0 white, -2px -1px 0 white;
-    font-style: italic;
-    letter-spacing: -.5px;
     margin: 20px auto 20px;
+    letter-spacing: 3px;
 }
 
 h2{
@@ -250,7 +247,7 @@ nav li a:link, nav li a:visited {
 
 /* mouse over link */
 nav li a:hover{
-    color: #fc0;
+    color: darkorange;
     text-shadow:
        1px 1px 0 cyan;
 }
@@ -636,7 +633,7 @@ img {
     
     #contactus{
         font-family: "Joti One";
-        width: 220px;
+        width: 250px;
         margin: -50px auto;
         font-size: 42px;
     }
