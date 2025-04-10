@@ -390,6 +390,10 @@ img {
     }
     
     .burger {
+        background: #400;
+        border: 2px solid gold;
+        border-radius: 15px;
+        padding: 5px 2px; 
         align-self: flex-start;
         float: right;
         margin: 10px 20px 0 0;
@@ -397,10 +401,10 @@ img {
     
     .burger span{
         width: 52px;
-        height: 6px;
+        height: 4px;
         margin: 10px;
         background: linear-gradient(to left, #8c4d00, #b56c00, #f90, #ffcf8c, #f90, #b56c00, #8c4d00);
-        border: .5px solid orange;
+        border: 1px solid gold;
     }
     
     #top{
@@ -744,21 +748,25 @@ img {
     }
     
     .burger {
+        background: #500;
+        border: 2px solid gold;
+        border-radius: 52px;
+        padding: 5px 2px;
         align-self: flex-start;
         float: right;
         margin: 20px 20px 0 0;
     }
     
     .burger span{
-        width: 40px;
-        height: 4px;
-        margin: 7px;
+        width: 30px;
+        height: 2px;
+        margin: 8px 10px;
         background: linear-gradient(to left, #8c4d00, #b56c00, #f90, #ffcf8c, #f90, #b56c00, #8c4d00);
-        border: .5px solid orange;
-        box-shadow: 0px 1px 2px gold, 0px -1px 2px gold;
+        border: 1px solid orange;
     }
     
     #top{
+        margin-top: 8px;
         border-top-right-radius: 3.5px;
         border-top-left-radius: 3.5px;
     }
@@ -766,6 +774,7 @@ img {
     #bottom{
         border-bottom-right-radius: 3.5px;
         border-bottom-left-radius: 3.5px;
+        margin-bottom: 8px;
     }
     
     #intro {
