@@ -755,6 +755,7 @@ img {
         margin: 7px;
         background: linear-gradient(to left, #8c4d00, #b56c00, #f90, #ffcf8c, #f90, #b56c00, #8c4d00);
         border: .5px solid orange;
+        box-shadow: 0px 1px 2px gold, 0px -1px 2px gold;
     }
     
     #top{
