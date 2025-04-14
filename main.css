@@ -196,7 +196,7 @@ p{
 }
 
 .sidenav a:nth-child(2){
-    margin-top: 200px;
+    margin-top: 175px;
 }
 
 .sidenav a:hover {
@@ -376,8 +376,8 @@ img {
 }
     
     .sidenav .closebtn {
-        margin: 25px 40px 28px 22px;
-        font-size: 50px
+        margin: 30px 35px 28px 22px;
+        font-size: 55px
     }
     
     .overlay{
@@ -392,17 +392,17 @@ img {
     .burger {
         background: #400;
         border: 2px solid gold;
-        border-radius: 15px;
-        padding: 5px 2px; 
+        border-radius: 150px;
+        padding: 11px 5px; 
         align-self: flex-start;
         float: right;
         margin: 10px 20px 0 0;
     }
     
     .burger span{
-        width: 52px;
+        width: 42px;
         height: 4px;
-        margin: 10px;
+        margin: 8px 10px;
         background: linear-gradient(to left, #8c4d00, #b56c00, #f90, #ffcf8c, #f90, #b56c00, #8c4d00);
         border: 1px solid gold;
     }
@@ -438,9 +438,9 @@ img {
     }
     
     #logo img{
-        width: 85px;
-        height: 200px;
-        margin-left: -220px;
+        width: 100px;
+        height: 225px;
+        margin-left: -200px;
     }
     
     
@@ -722,7 +722,7 @@ img {
     .sidenav a{
         margin-left: 20px;
         margin-bottom: 50%;
-        margin-top: 30%;
+        margin-top: 10%;
     }
     
     .sidenav .closebtn{
@@ -759,10 +759,10 @@ img {
     
     .burger span{
         width: 30px;
-        height: 2px;
-        margin: 8px 10px;
+        height: 3px;
+        margin: 6px 8px;
         background: linear-gradient(to left, #8c4d00, #b56c00, #f90, #ffcf8c, #f90, #b56c00, #8c4d00);
-        border: 1px solid orange;
+        border: .5px solid gold;
     }
     
     #top{
@@ -778,7 +778,7 @@ img {
     }
     
     #intro {
-        margin: 10px auto;
+        margin: 0px auto;
         height: 200px;
     }
     
@@ -813,8 +813,8 @@ img {
     }
     
     #logo img{
-        width: 60px;
-        height: 150px;
+        width: 75px;
+        height: 170px;
         margin: 10px 20px;
         filter: drop-shadow(0px 0px 10px gold);
         padding: 3px;
@@ -861,11 +861,7 @@ img {
     
     #hours h3{
         margin-top: 10px;
-    }
-    
-    #hours i{
-        font-size: 18px;
-        text-decoration: underline;
+        margin-bottom: 25px;
     }
     
     #location img{
