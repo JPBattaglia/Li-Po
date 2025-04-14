@@ -308,6 +308,12 @@ img {
     color: #700;
 }
 
+#location, #reservations, #hours{
+    background: #700;
+    border-radius: 20px;
+    box-shadow: 4px 8px 40px #000, -4px -8px 40px #a00;
+}
+
 #location img:hover{
         filter: drop-shadow(0px 0px 3px red);
 }
@@ -511,26 +517,31 @@ img {
         height: 600px;
     }
     
+    #location, #reservations, #hours{
+        width: 50%;
+        margin: auto;
+        margin-bottom: 50px;
+        padding: 20px 0;
+        border: 1px solid #900;
+    }
+    
+    #reservations {
+        padding: -20px 0;
+        margin: 0 auto 50px;
+    }
+    
+    #reservations img{
+        margin-top: 0px;
+    }
+    
     #location img{
         width: 50px;
         margin-bottom: 10px;
     }
     
-    #reservation{
-        color:white;
-        padding: 10px 25px;
-        background: repeating-linear-gradient(to top, #500, #900, red 100%);
-        width: 100px;
-        border-radius: 30px;
-        font-family: 'federant';
-        text-decoration: none;
-        border: .5px solid #600;
-        box-shadow: 2px 4px 8px #700;
-        margin: 5px;
-    }
-    
     #number{
-        margin: 50px auto 100px;
+        margin: 50px auto -20px;
+        padding-bottom: 30px;
     }
     
     textarea, input{
@@ -846,13 +857,9 @@ img {
     #clock{
         width: 40px;
         height: 40px;
-        margin-top: 50px;
+        margin-top: 25px;
         border: .5px solid #fff;
         border-radius: 50px;
-    }
-    
-    #hours{
-        margin-top: -10px;
     }
     
     #hours h2{
@@ -873,13 +880,13 @@ img {
     }
     
     #reservations h3{
-        margin: 15px 0;
+        margin: 15px 0 25px;
         font-family: 'Quintessential';
     }
     
     #phone{
         width: 50px;
-        margin: 30px 0 -15px;
+        margin: 20px 0 -15px;
     }
     
     #location h2{
@@ -887,13 +894,19 @@ img {
     }
     
     #location h3{
-        margin: 0 0 10px;
+        margin: 0 0 20px;
     }
     
     #location img{
         width: 45px;
         filter:drop-shadow(0px 0px 2px black);
-        margin-top: 10px;
+        margin-top: 20px;
+    }
+    
+    #location, #reservations, #hours{
+        margin-bottom: 50px;
+        width: 75%;
+        border: .5px solid #a00;
     }
     
     select{
