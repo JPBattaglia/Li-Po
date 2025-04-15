@@ -275,7 +275,7 @@ img {
 }
 
   #stage{
-    top: 375px;
+    top: 355px;
     position: absolute;
     width: 100%;
     z-index: -1;
@@ -449,7 +449,6 @@ img {
         margin-left: -200px;
     }
     
-    
     #info h3{
         font-family: 'Passero One';
         font-size: 28px;
@@ -473,6 +472,10 @@ img {
         width: 50px;
         height: 50px;
         margin-bottom: 10px;
+    }
+    
+    #hours h3 span{
+        font-size: 22px;
     }
     
     #reservations h2{
@@ -876,6 +879,10 @@ img {
         margin-bottom: 25px;
     }
     
+    #hours h3 span{
+        font-size: 18px;
+    }
+    
     #location img{
         width: 30px;
     }
@@ -1090,7 +1097,7 @@ img {
     #info{
         display:flex;
         max-width:1000px;
-        margin: auto;
+        margin: 10px auto;
     }
     
     #info h3{
@@ -1114,7 +1121,11 @@ img {
     }
     
     #hours h3{
-        font-size: 24px;
+        font-size: 26px;
+    }
+    
+    #hours h3 span{
+        font-size: 22px;
     }
     
     #hours img{
